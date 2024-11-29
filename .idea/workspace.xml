@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75a43db5-0d67-4316-b5c9-9ea0e430bcb0" name="Changes" comment="Final web">
-      <change afterPath="$PROJECT_DIR$/images/curri.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="75a43db5-0d67-4316-b5c9-9ea0e430bcb0" name="Changes" comment="Final total de web">
+      <change beforePath="$PROJECT_DIR$/images/Captura de pantalla de 2024-11-22 11-35-44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Captura de pantalla de 2024-11-22 11-48-26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/docker.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,13 +99,31 @@
       <option name="project" value="LOCAL" />
       <updated>1732877656103</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Final 2 web">
+      <option name="closed" value="true" />
+      <created>1732878692709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732878692709</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Final total de web">
+      <option name="closed" value="true" />
+      <created>1732879974063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732879974063</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Apunto de terminar web" />
     <MESSAGE value="Web" />
     <MESSAGE value="Final web" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final web" />
+    <MESSAGE value="Final 2 web" />
+    <MESSAGE value="Final total de web" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final total de web" />
   </component>
 </project>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRISTHIAN GODOY</title>
+    <link rel="shortcut icon" href="./images/main_photo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/styleindex.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <div class="hero-header">
+        
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-c"></i>
+                    <div class="logo-text">Cristhian Godoy</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="listaproyectos.html">Lista proyectos</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="./images/main_photo.jpg" alt="profile pic">
+                </div>
+                <div class="hero-text">
+                    <h5>Hola soy <span class="input">Tecnico IT</span></h5>
+                    <h1>Cristhian Godoy</h1>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta delectus dolorum
+                        quibusdam maiores magni quod rem in porro, laborum, laudantium ex repellendus explicabo,
+                        autem molestiae!
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="https://drive.google.com/file/d/1Sr5TT_AfHD11-Popprt1ojkcDuomWaG-/view?usp=sharing"
+                            class="btn active" target="_blank">Download CV</a>
+                        <a href="formulario1.html" class="btn">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-text">
+                    <a href="proyecto1.html">
+                        <h1>Presentación Tarjeta Grafica</h1>
+                    </a>
+                    <p> La NVIDIA RTX 4090: la gráfica del futuro ya está aquí. Con un rendimiento que duplica a su predecesora, tecnologías revolucionarias como la arquitectura Ada Lovelace y una potencia gráfica capaz de alcanzar resoluciones 8K, esta tarjeta lleva la experiencia visual a un nivel completamente nuevo. Perfecta para gamers, diseñadores y streamers, la RTX 4090 es sinónimo de innovación, aunque con un precio y consumo energético que no todos podrán manejar. ¿Estás listo para revolucionar tu PC?
+                    </p>
+
+                    <div class="imagen-contenedor">
+                        <a href="https://www.canva.com/design/DAGU138EJRk/pisCHwxI3p-PKdaakoSdtg/view?utm_content=DAGU138EJRk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h54f5197c63"
+                            target="_blank">
+                            <img src="./images/Grafica.png" alt="profile pic"
+                                class="imagen-bonita">
+                        </a>
+                    </div>
+                    <div class="hero-text">
+                        <div class="social">
+                            <i class="fa-solid fa-compact-disc"></i>
+                            <i class="fa-solid fa-file-csv"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <a href="proyecto2.html">
+                        <h1>Docker</h1>
+                    </a>
+                    <p> En este proyecto, diseñe una infraestructura moderna utilizando Docker, una plataforma que permite crear, gestionar y ejecutar aplicaciones en contenedores aislados. Con Docker,
+                        logramos un entorno eficiente, seguro y escalable, ideal para la implementación de servicios esenciales.
+
+                    </p>
+                    <div class="imagen-contenedor">
+                        <a href=""
+                            target="_blank">
+                            <img src="./images/docker.png" alt="profile pic"
+                                class="imagen-bonita">
+                        </a>
+
+                    </div>
+                    <div class="hero-text">
+                        <div class="social">
+                            <i class="fa-brands fa-github"></i>
+                            <i class="fab fa-python"></i>
+                            <i class="fa-solid fa-file-csv"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="hero-header1">
+        <div class="container">
+            <div class="hero-text">
+                <p>MCM &copy; 2024 MCM. Tots els drets reservats.</p>
+            </div>
+            <div class="hero-text">
+                <div class="social">
+                    <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://es.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        /** creating button click show hide navbar **/
+        var togglebtn = document.querySelector(".togglebtn");
+        var nav = document.querySelector(".navlinks");
+        var links = document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function () {
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+
+        var typed = new Typed(".input", {
+            strings: ["Sys Admin", "Programador Web", "Experto en ciberseguridad"],
+            typedSpeed: 70,
+            backSpeed: 55,
+            loop: true
+        })
+    </script>
+</body>
+
+</html>

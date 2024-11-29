@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75a43db5-0d67-4316-b5c9-9ea0e430bcb0" name="Changes" comment="Web">
+      <change afterPath="$PROJECT_DIR$/images/docker1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto1.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proyecto2.html" beforeDir="false" afterPath="$PROJECT_DIR$/proyecto2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/proyecto.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/proyecto.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/styleindex.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/styleindex.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,15 +42,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/cristhian.godoy.7e6/PycharmProjects/PORTFOLI&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/cristhian.godoy.7e6/PycharmProjects/PORTFOLI/images"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
